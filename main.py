@@ -109,7 +109,7 @@ letters = [None] * 26
 word = get_word()
 
 if __name__ == '__main__':
-    if True:
+    if debug:
         print(word)
 
     set_clean_letters(word)
